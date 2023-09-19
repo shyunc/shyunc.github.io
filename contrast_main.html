@@ -5,13 +5,69 @@
         <title></title><!--declaring the title, or name, of the HTML document. displayed in the browser's title bar-->
         <meta name="description" content=""><!--keywords/snippet for search engines-->
         <meta name="viewport" content="width=device-width"><!--the browser will (probably) render the width of the page at the width of its own screen -->
-    </head>
-    <body>
-        <h1>Harmony and Contrast</h1>
+        <style>
 
-        <p>
+.column {
+
+position: fixed;
+width: 40%;
+word-wrap: break-word;
+z-index: 1;
+top: 0px;
+left: 10px;
+overflow-x: hidden;
+padding: 0px 0px 0px 0px;
+}
+
+.sidebar {
+
+position: fixed;
+width: 25%;
+word-wrap: break-word;
+z-index: 1;
+top: 100px;
+left: 10px;
+overflow-x: hidden;
+padding: 0px 0px 0px 0px;
+}
+
+
+.main {
+  margin-left: 400px; /* Same width as the sidebar + left position in px */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 50px 50px 10px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+
+
+
+    <body>
+        <div class="column">
+            <h1>
+                Harmony and Contrast
+            </h1>
+          </div>
+       
+          <div class="main">
+        <h2>
             The heart of Carl Dair's teaching -- the thing that I keep pointing people to, and the most valuable thing I myself learned from his work -- is the subject of "A Typographic Quest" No. 5: "Typographic Contrast." In a virtuoso performance, Dair shows exactly how designers use different kinds of visual contrast to make design work and meaning pop out -- clearly and unambiguously, and with flair. To make his point, he compares typography to music.
             Graphic form and musical form have a common denominator: rhythm and emphasis, harmony and contrast. "Harmony and contrast," says Dair, "are fundamental to both, and the discovery of these basic principles and their application to the design of printed matter is the object of this volume of 'A Typographic Quest.'"
-        </p>
+        </h2>
+
+        <p>
+           
+    </div>
+
+    <div class="sidebar">
+        <a href="https://shyunc.github.io/contrast_main.html"> Harmony and Contrast</a>
+        <a href="https://shyunc.github.io/contrast_main.html"> Harmony and Contrast</a>
+        <a href="https://shyunc.github.io/contrast_main.html"> Harmony and Contrast</a>
+      </div>
+
     </body>
 </html>
