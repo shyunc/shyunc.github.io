@@ -5,49 +5,7 @@
         <title></title><!--declaring the title, or name, of the HTML document. displayed in the browser's title bar-->
         <meta name="description" content=""><!--keywords/snippet for search engines-->
         <meta name="viewport" content="width=device-width"><!--the browser will (probably) render the width of the page at the width of its own screen -->
-        <style>
-
-.column {
-
-position: fixed;
-width: 40%;
-word-wrap: break-word;
-z-index: 1;
-top: 0px;
-left: 10px;
-overflow-x: hidden;
-padding: 0px 0px 0px 0px;
-}
-
-.sidebar {
-
-position: fixed;
-width: 25%;
-word-wrap: break-word;
-z-index: 1;
-top: 100px;
-left: 10px;
-overflow-x: hidden;
-padding: 0px 0px 0px 0px;
-}
-
-
-.main {
-  margin-left: 400px; /* Same width as the sidebar + left position in px */
-  margin-right: 450px;
-  font-size: 28px; /* Increased text to enable scrolling */
-  padding: 50px 50px 10px 10px;
-}
-
-p {font-size: 20px;
-    margin-left: 35px;
-    margin-right: 50px}
-
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
-</style>
+        <link rel="stylesheet" href="main.css"
 
 
 
@@ -78,7 +36,7 @@ p {font-size: 20px;
     </div>
 
     <div class="sidebar">
-        <li><a href="index.html"> Seven Principles of Typographic Contrast</a></li>
+        <li><a href="index.html"> Seven Principles of Typographic Contrast</span></a></li>
         <li><a href="contrast_main.html"> Harmony and Contrast</a></li>
         <li><a href="seven-kinds-of-contrast.html"> Seven Kinds of Contrast</a></li>
       </div>

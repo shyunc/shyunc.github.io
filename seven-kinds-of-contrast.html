@@ -5,53 +5,9 @@
         <title></title><!--declaring the title, or name, of the HTML document. displayed in the browser's title bar-->
         <meta name="description" content=""><!--keywords/snippet for search engines-->
         <meta name="viewport" content="width=device-width"><!--the browser will (probably) render the width of the page at the width of its own screen -->
+        <link rel="stylesheet" href="main.css">
 
-<style>
-
-.column {
-
-position: fixed;
-width: 40%;
-word-wrap: break-word;
-z-index: 1;
-top: 0px;
-left: 10px;
-overflow-x: hidden;
-padding: 0px 0px 0px 0px;
-}
-
-.sidebar {
-
-position: fixed;
-width: 25%;
-word-wrap: break-word;
-z-index: 1;
-top: 100px;
-left: 10px;
-overflow-x: hidden;
-padding: 0px 0px 0px 0px;
-}
-
-
-.main {
-  margin-left: 400px; /* Same width as the sidebar + left position in px */
-  font-size: 28px; /* Increased text to enable scrolling */
-  padding: 50px 50px 10px 10px;
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
-
-p {font-size: 20px;
-    margin-left: 35px;
-    margin-right: 20px}
-</style>
-
-
-
-    <body style="font-family: Optima, serif">
+    <body>
         <div class="column">
             <h1>
                 Seven Kinds of Contrast
