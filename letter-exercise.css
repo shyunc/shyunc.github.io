@@ -1,7 +1,11 @@
 
+body {
+    margin: 0;
+}
 .column
 {
-    display: block
+    display: block;
+    
 }
 
 .parent 
