@@ -1,0 +1,60 @@
+
+.column
+{
+    display: block
+}
+
+.parent 
+{
+    display: inline-block;
+    height: 180px;
+    width: 120px;
+    background-color: orangered;
+    padding: 5px;
+    position: relative;
+}
+
+.d-blue 
+{
+    border-radius: 0px 20px 20px 0px;
+    background-color: blue;
+    height: 150px;
+    width: 100px;
+    position: absolute;
+    margin-left: 9px;
+}
+
+.d-inside
+{
+    border-radius: 0px 20px 20px 0px;
+    background-color: white;
+    position: absolute;
+    height: 100px;
+    width: 70px;
+    position: absolute;
+    margin-left: 23px;
+    margin-top: 40px;
+}
+
+.d-red 
+{
+    border-radius: 0px 70px 70px 0px;
+    background-color: greenyellow;
+    height: 150px;
+    width: 100px;
+    position: absolute;
+    margin-left: 9px;
+}
+
+.d-inside2
+{
+    border-radius: 0px 45px 45px 0px;
+    background-color: black;
+    position: absolute;
+    height: 100px;
+    width: 70px;
+    position: absolute;
+    margin-left: 23px;
+    margin-top: 40px;
+}
+
