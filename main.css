@@ -98,3 +98,11 @@ h2 {
     font-size: 18px;
   }
 }
+
+:target {
+  font-style: italic;
+  display: inline-block;
+  padding: 2px;
+  background: yellow;
+  color: black;
+}
