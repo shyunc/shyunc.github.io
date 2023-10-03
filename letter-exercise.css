@@ -1,6 +1,6 @@
 
 body {
-    margin: 0;
+    background-color: black;
 }
 .column
 {
@@ -13,14 +13,40 @@ body {
     display: inline-block;
     height: 180px;
     width: 120px;
-    background-color: orangered;
-    padding: 5px;
+    background-color: black;
+    position: relative;
+}
+
+.parent4 
+{
+    display: inline-block;
+    height: 180px;
+    width: 120px;
+    background-color: black;
+    position: relative;
+}
+
+.parent2 
+{
+    display: inline-block;
+    height: 180px;
+    width: 210px;
+    background-color: black;
+    position: relative;
+}
+
+.parent3 
+{
+    display: inline-block;
+    height: 180px;
+    width: 130px;
+    background-color: black;
     position: relative;
 }
 
 .d-blue 
 {
-    border-radius: 0px 20px 20px 0px;
+    border-radius: 5px 20px 20px 5px;
     background-color: blue;
     height: 150px;
     width: 100px;
@@ -30,8 +56,8 @@ body {
 
 .d-inside
 {
-    border-radius: 0px 20px 20px 0px;
-    background-color: white;
+    border-radius: 20px 40px 40px 20px;
+    background-color: yellow;
     position: absolute;
     height: 100px;
     width: 70px;
@@ -40,10 +66,10 @@ body {
     margin-top: 40px;
 }
 
-.d-red 
+.d-greenyellow 
 {
     border-radius: 0px 70px 70px 0px;
-    background-color: greenyellow;
+    background-color: lawngreen;
     height: 150px;
     width: 100px;
     position: absolute;
@@ -62,3 +88,92 @@ body {
     margin-top: 40px;
 }
 
+.d-purple 
+{
+    border-radius: 0px 20px 20px 0px;
+    background-color: seashell;
+    height: 50px;
+    width: 180px;
+    position: absolute;
+    margin-left: 9px;
+}
+
+.d-inside3
+{
+    border-radius: 0px 50px 50px 0px;
+    background-color: darkred;
+    position: fixed;
+    height: 30px;
+    width: 100px;
+    position: absolute;
+    margin-left: 23px;
+    margin-top: 25px;
+}
+
+.d-rebeccapurple 
+{
+    border-radius: 50px 85px 85px 10px;
+    background-color: rebeccapurple;
+    height: 150px;
+    width: 95px;
+    position: absolute;
+    margin-left: 9px;
+}
+
+.d-inside4
+{
+    border-radius: 50px 80px 80px 20px;
+    background-color: gold;
+    position: fixed;
+    height: 100px;
+    width: 80px;
+    position: absolute;
+    margin-left: 18px;
+    margin-top: 38px;
+}
+
+.d-inside5
+{
+    border-radius: 50px 80px 80px 30px;
+    background-color: fuchsia;
+    position: fixed;
+    height: 80px;
+    width: 60px;
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 48px;
+}
+
+.d-skyblue 
+{
+    border-radius: 20px 5px 10px 50px;
+    background-color: skyblue;
+    height: 70px;
+    width: 100px;
+    position: absolute;
+    margin-left: 9px;
+    margin-top: 100px;
+}
+
+.d-skybluetop 
+{
+    border-radius: 20px 5px 10px 50px;
+    background-color: skyblue;
+    height: 150px;
+    width: 20px;
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+
+.d-inside6
+{
+    border-radius: 20px 5px 10px 50px;
+    background-color: darkslategrey;
+    position: fixed;
+    height: 30px;
+    width: 70px;
+    position: absolute;
+    margin-left: 18px;
+    margin-top: 110px;
+}
