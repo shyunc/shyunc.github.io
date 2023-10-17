@@ -1,0 +1,62 @@
+body {
+font-family: Garamond;
+overflow: scroll;
+}
+
+.light {
+  --main-tx-color: #231e1a;
+  --main-bg-color: #f7f6f6;
+}
+
+.dark {
+  --main-bg-color: #211f1e;
+  --main-tx-color: #141414;
+}
+
+.wrapper {
+    background: var(--main-bg-color);
+  }
+
+@font-face {
+    font-family: Garamond;
+    src: url(/Users/choseunghyun/Desktop/RISD/FONTS/EB_Garamond/EBGaramond-VariableFont_wght.ttf);
+}
+
+.subtitle {
+    font-size: 30px;
+    position: absolute;
+    top: 23%;    
+    left:0;
+    right:0;
+    margin:0 auto;
+    width: 50%;
+}
+
+.title {
+    font-size: 128px;
+    position: absolute;
+    top: 24%;    
+    left:0;
+    right:0;
+    margin:0 auto;
+    width: 50%;
+}
+
+.middle {
+    position: absolute;
+    top: 80%;    
+    left:0;
+    right:0;
+    margin:0 auto;
+    width: 50%;
+    text-overflow:ellipsis;
+}
+
+  
+div {
+    color: #615252;
+    font-family: Garamond;
+    font-size: 52.5px;
+    padding: 12px;
+    display: inline-block;
+}

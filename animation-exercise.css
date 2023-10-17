@@ -1,0 +1,87 @@
+div {
+    position: inline-block;
+    margin-bottom: 5px;
+}
+
+.button-right {
+    font-family: 'helvetica', sans-serif;
+    font-size: 15px;
+    color: white;
+    background-color: blue;
+    width: 300px;
+    height: 20px;
+    text-align: center;
+    padding-top: 5px;
+    position: absolute;
+    right: 10px;    
+    
+    transition-property: width;
+    transition-duration: 1000ms;
+    transition-timing-function: ease-in-out;
+    
+    /*short-hand property: */
+    /*transition: background-color 800ms ease-in-out 300ms;*/
+  }
+  
+  .button-left:hover {
+    width: 0px;
+    cursor: pointer;
+    width: 0px;
+  }
+
+  .button-left {
+    font-family: 'helvetica', sans-serif;
+    font-size: 15px;
+    color: white;
+    background-color: red;
+    width: 300px;
+    height: 20px;
+    text-align: center;
+    padding-top: 5px;
+    position: block;
+
+    
+    transition-property: width;
+    transition-duration: 1000ms;
+    transition-timing-function: ease-in-out;
+    
+    /*short-hand property: */
+    /*transition: background-color 800ms ease-in-out 300ms;*/
+  }
+  
+  .button-right:hover {
+    width: 1775px;
+    cursor: pointer;
+    
+  }
+
+  .button-right:hover + .button-left {
+    width: 0px;
+    cursor: pointer;
+  }
+
+    .button-aa {
+        font-family: 'helvetica', sans-serif;
+        font-size: 15px;
+        color: white;
+        background-color: purple;
+        width: 300px;
+        height: 20px;
+        text-align: center;
+        padding-top: 5px;
+        position: inline-block;
+        right: 500px;    
+        
+        transition-property: width;
+        transition-duration: 1000ms;
+        transition-timing-function: ease-in-out;
+        
+        /*short-hand property: */
+        /*transition: background-color 800ms ease-in-out 300ms;*/
+      }
+      
+      .button-aa:hover {
+        width: 0px;
+        cursor: pointer;
+        width: 0px;
+      }
