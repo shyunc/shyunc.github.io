@@ -3,7 +3,7 @@ font-family: Garamond;
 overflow: scroll;
 }
 
-.light {
+/* .light {
   --main-tx-color: #231e1a;
   --main-bg-color: #f7f6f6;
 }
@@ -15,48 +15,323 @@ overflow: scroll;
 
 .wrapper {
     background: var(--main-bg-color);
-  }
+} */
 
 @font-face {
     font-family: Garamond;
     src: url(/Users/choseunghyun/Desktop/RISD/FONTS/EB_Garamond/EBGaramond-VariableFont_wght.ttf);
 }
 
+main {
+    margin: 0 auto;
+    max-width: 900px;
+    display: grid;
+    place-items: center;
+    align-content: center;    
+    position: relative;
+}
+
 .subtitle {
     font-size: 30px;
-    position: absolute;
     top: 23%;    
-    left:0;
-    right:0;
-    margin:0 auto;
-    width: 50%;
+    margin: 0%;
+    width: 100%;
+    padding-bottom: 0%;
 }
 
 .title {
     font-size: 128px;
-    position: absolute;
-    top: 24%;    
-    left:0;
-    right:0;
-    margin:0 auto;
-    width: 50%;
+    width: 100%;
+    padding-top: 0%;
 }
+
 
 .middle {
-    position: absolute;
-    top: 80%;    
-    left:0;
-    right:0;
     margin:0 auto;
-    width: 50%;
     text-overflow:ellipsis;
 }
-
-  
+ 
 div {
     color: #615252;
     font-family: Garamond;
-    font-size: 52.5px;
+    font-size: 58px;
     padding: 12px;
-    display: inline-block;
+    /* display: inline-block; */
+}
+
+#time {
+    font-family: Garamond;
+    font-size: 19px;
+}
+
+.img1 {
+    scale: 5%;
+    top: -20%;
+}
+
+.img2 {
+    scale: 7%;
+    top: -18%;
+}
+
+.img:nth-child(2) {
+    transition-delay: 2s
+}
+
+
+.img3 {
+    scale: 10%;
+    top: -16%;
+}
+
+.img:nth-child(3) {
+    transition-delay: 4s
+}
+
+.img4 {
+    scale: 12%;
+    top: -14%;
+}
+
+.img:nth-child(4) {
+    transition-delay: 6s
+}
+
+.img5 {
+    scale: 14%;
+    top: -12%;
+}
+
+.img:nth-child(5) {
+    transition-delay: 8s
+}
+
+.img6 {
+    scale: 17%;
+    top: -10%;
+    transition-delay: 10s;
+}
+
+.img:nth-child(6) {
+    transition-delay: 8s
+}
+
+.img7 {
+    scale: 18%;
+    top: -8%;
+    margin-right: 500px;
+    transition-delay: 10s;
+}
+
+.img8 {
+    scale: 19%;
+    top: -6%;
+    margin-right: 800px;
+    transition-delay: 10s;
+}
+
+.img9 {
+    scale: 20%;
+    top: -4%;
+    margin-right: 400px;
+    transition-delay: 10s;
+}
+
+.img10 {
+    scale: 21%;
+    top: -2%;
+    margin-right: 70px;
+    transition-delay: 10s;
+}
+
+.img11 {
+    scale: 22%;
+    top: 0%;
+    margin-left: 70px;
+}
+
+.img12 {
+    scale: 23%;
+    top: 0%;
+    margin-left: 200px;
+}
+
+.img13 {
+    scale: 24%;
+    top: 1%;
+}
+
+.img14 {
+    scale: 25%;
+    top: 3%;
+}
+
+ .img15 {
+    scale: 27%;
+    top: 4%;
+    margin-left: 500px;
+}
+
+.img16 {
+    scale: 20%;
+    top: 5%;
+}
+
+.img17 {
+    scale: 28%;
+    top: 6%;
+    margin-right: 100px;
+}
+
+.img18 {
+    scale: 15%;
+    top: 6%;
+    margin-left: 1000px;
+}
+
+.img19 {
+    scale: 15%;
+    top: 14%;
+    margin-left: 1000px;
+}
+
+.img20 {
+    scale: 15%;
+    top: 20%;
+    margin-right: 100px;
+}
+
+.img21 {
+    scale: 16%;
+    top: 28%;
+    margin-right: 900px;
+}
+
+.img22 {
+    scale: 16%;
+    top: 32%;
+}
+
+.img23 {
+    scale: 16%;
+    top: 37%;
+    margin-left: 900px;
+
+}
+
+.img24 {
+    scale: 17%;
+    top: 24.5%;
+    margin-right: 1000px;
+}
+
+.img25 {
+    scale: 17%;
+    top: 24.5%;
+
+}
+
+.img26 {
+    scale: 17%;
+    top: 24.5%;
+    margin-left: 1000px;
+}
+
+.img27 {
+    scale: 18%;
+    top: 26%;
+    margin-right: 1200px;
+}
+
+.img28 {
+    scale: 18%;
+    top: 26%;
+}
+
+.img29 {
+    scale: 18%;
+    top: 26%;
+    margin-left: 1200px;
+}
+
+.img30 {
+    scale: 20%;
+    top: 28%;
+    margin-left: 500px;
+}
+
+.img31 {
+    scale: 20%;
+    top: 28%;
+    margin-right: 500px;
+
+}
+
+.img32 {
+    scale: 22%;
+    top: 34%;
+}
+
+.img33 {
+    scale: 23%;
+    top: 37%;
+}
+
+.img34 {
+    scale: 25%;
+    top: 39%;
+}
+
+.img35 {
+    scale: 27%;
+    top: 41%;
+
+}
+
+.img36 {
+    scale: 29%;
+    top: 44%;
+}
+
+.img37 {
+    scale: 31%;
+    top: 47%;
+
+}
+
+.img38 {
+    scale: 33%;
+    top: 50%;
+
+}
+
+.img39 {
+    scale: 35%;
+    top: 52%;
+
+}
+
+.img40 {
+    scale: 37%;
+    top: 55%;
+} 
+
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(0);
+    transition:all 1s;
+    transition-delay: 2000ms;
+    position: absolute;
+}
+
+@media (prefers-reduced-motion) {
+    .hidden {
+        transition: none;
+    }
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0px);
 }

@@ -1,12 +1,20 @@
-$(function() {
+// let options = {
+//   root: document.querySelector("#scrollArea"),
+//   rootMargin: "50%",
+//   threshold: 1.0,
+// };
 
-  var hour = (new Date).getHours();
-
-  if (hour >= 16) {
-    $('.div').removeClass('dark').addClass('light');
-  } else {
-    $('.div').removeClass('light').addClass('dark');
-  }
-  console.log(hour);
-
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    console.log(entry)
+    if (entry.isIntersecting) {
+      entry.target.classList.add('show');
+    } else {
+      entry.target.classList.remove('show');
+    }
+  });
 });
+
+const hiddenElements = document.querySelectorAll('.hidden');
+hiddenElements.forEach((el) => observer.observe(el));
+
