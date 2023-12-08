@@ -31,6 +31,12 @@ main {
     position: relative;
 }
 
+/* .scroll {
+    position: absolute;
+    width: 20%;
+    height: max-content;
+} */
+
 .subtitle {
     font-size: 30px;
     top: 23%;    

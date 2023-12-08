@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Save Web Form Data to Spreadsheets - Contact Form</title>
+<link rel="stylesheet" href="share.css">
+<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+<script>
+function SubForm (){
+    $.ajax({
+        url:'https://api.apispreadsheets.com/data/RHRWZx7KroqimqOf/',
+        type:'post',
+        data:$("#myForm").serializeArray(),
+        success: function(){
+          alert("Form Data Submitted :)")
+        },
+        error: function(){
+          alert("There was an error :(")
+        }
+    });
+}
+</script>
+</head>
+
+<body>
+
+    <br/>
+    <div class="intro">
+        Grief is a Universal Experience.
+    </div>
+    <div>
+        <br/>
+        If you are comfortable enough and willing to share your journey with grief or memories with the one(s) <br/>
+        you are grieving for, please fill out the form below to join the Grief Project.
+
+        <br/><br/>
+
+        Initials and Email OPTIONAL. 
+    </div>
+  <form id="myForm">
+    <label class="label">Name or Initials</label>
+    <br/>
+    <input name="initials" />
+    <br/>
+    <br/>
+    <label class="label">Email</label>
+    <br/>
+    <input name="email" />
+    <br/>
+    <br/>
+    <label class="label">What has been keeping you this week?</label>
+    <br/>
+    <textarea name="how-are-you">
+    </textarea>
+    <br/>
+    <br/>
+    <label class="label">What would you like to share?</label>
+    <br/>
+    <textarea name="question2">
+    </textarea>
+  </form>
+  <button onclick="SubForm()">Submit</button>
+</body>
+</html>

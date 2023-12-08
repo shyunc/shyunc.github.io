@@ -1,0 +1,55 @@
+html {
+    background-color: #f1f1f1;
+}
+
+.centered {
+    background-color: #0E162E;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: fixed;
+    top: 34%;
+    left: 49%;
+    /* transform: translate(-50%, -50%); */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.centered:hover {
+    transform: scale(1.5);
+    position:relative;
+}
+
+.enter {
+    animation: enter 5s;
+    animation-iteration-count: 1;
+}
+
+.centered:hover:after {
+    transform: scale(10);
+
+}
+
+@keyframes enter {
+    from {
+      transform: scale(1.5);
+    }
+    to {
+      transform: scale(30);
+    }
+}
+
+.title {
+    font-size: 340px;
+    font-family: 'Basteleur';
+    position: fixed; 
+    color: #0E162E;
+    bottom:-6%;
+    margin-left: 13px;
+}
+
+
+@font-face {
+    font-family: Basteleur;
+    src: url(/Users/choseunghyun/Desktop/RISD/FONTS/basteleur/Basteleur-Moonlight.otf);
+  }
