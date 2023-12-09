@@ -14,4 +14,4 @@ var coll = document.getElementsByClassName("collapsible");
                   content.style.maxHeight = content.scrollHeight + "px";
                 } 
               });
-            }
+            }}
