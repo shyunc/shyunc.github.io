@@ -1,3 +1,6 @@
+function myFunction() {
+  alert('thank you for this semester :) hope you have a nice holiday!!');
+
 var coll = document.getElementsByClassName("collapsible");
             var i;
             
