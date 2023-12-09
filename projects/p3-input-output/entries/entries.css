@@ -48,29 +48,32 @@ html {
 	background: #f1f1f1;
 } */
 
-.next {
+/* .share {
     position: absolute;
-	bottom: 2%;
-	right: 2vh;
-	z-index: -1;
-	color: #f1f1f1;
-    font-size: 25px;
-}
-
-.back {
-    position: absolute;
-	bottom: 2%;
+    bottom: 2%;
 	left: 2vh;
 	z-index: -1;
 	color: #f1f1f1;
     font-size: 25px;
+    cursor: pointer;
+} */
+
+.back {
+    position: absolute;
+    bottom: 2%;
+	right: 41%;
+	z-index: -1;
+	color: #f1f1f1;
+    font-size: 18px;
+    cursor: pointer;
 }
 
-.share {
+/* .share {
     position: absolute;
 	bottom: 2%;
-	left: 45vw;
+	left: 42vw;
 	z-index: -1;
 	color: #f1f1f1;
     font-size: 25px;
-}
+    cursor: pointer;
+} */

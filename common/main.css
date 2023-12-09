@@ -111,12 +111,17 @@ h2 {
   cursor: pointer;
 }
 
-.active, .collapsible:hover {
-}
+/* .active, .collapsible:hover {
+} */
 
 .content {
   padding: 0 18px;
   max-height: 0;
   overflow: hidden;
   transition: max-height;
+}
+
+img.resize {
+  width:50%
+  height: auto;
 }

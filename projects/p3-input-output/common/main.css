@@ -20,24 +20,28 @@ html {
     position:relative;
 }
 
-.enter {
+/* .enter {
     animation: enter 5s;
     animation-iteration-count: 1;
+} */
+
+.transform {
+    transition: all 5s ease ease-in-out;
 }
 
-.centered:hover:after {
-    transform: scale(10);
-
+.transform-active {
+    width: 300px;
+    height: 300px;
 }
 
-@keyframes enter {
+/* @keyframes enter {
     from {
       transform: scale(1.5);
     }
     to {
       transform: scale(30);
     }
-}
+} */
 
 .title {
     font-size: 340px;
