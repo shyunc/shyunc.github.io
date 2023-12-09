@@ -1,3 +1,12 @@
+body {
+  background-color: rgb(231, 231, 231);
+  color: rgb(2, 2, 2);
+}
+
+.dark-mode {
+background-color: rgb(17, 17, 17);
+color: rgb(231, 231, 231);
+}
 
 .column {
   position: fixed;
@@ -26,6 +35,10 @@ a {
     color: black;
 }
 
+.dark-mode a {
+  color: rgb(231, 231, 231);
+}
+
 li {
     list-style-type: none;  
 }
@@ -33,6 +46,11 @@ li {
 a:hover {
     color: rgb(73, 36, 186);
     font-style:italic;
+}
+
+.dark-mode a:hover {
+  color: rgb(233, 230, 41);
+  font-style:italic;
 }
 
 .main {
